@@ -4,14 +4,17 @@ Entrada: Dos números cualquiera, cuatro números para resultados
 Restricciones: Que el segundo número no sea 0
 Salida: Cuatro números cualquiera
 DISEÑO
-1-  Inicio
-2-  VAR n1, n2, suma, resta, mult, div :REAL
-3-  n1:=0.0, n2:=0.0, suma:=0.0, resta:=0.0, mult:=0.0, div:=0.0
-4-  Mensaje “Ingresa dos números cualquiera”
-5-  Leer n1, n2
-6-  Si n1<>0 AND n2<>0
+1-	Inicio
+2-	VAR a, b, suma, resta, mult, div :REAL
+3-	a:=0.0, b:=0.0, suma:=0.0, resta:=0.0, mult:=0.0, div:=0.0
+4-	Mensaje “Ingresa dos números cualquiera”
+5-	Leer a, b
+6-	Si n1<>0 AND n2<>0
 Si, paso 7
 No, Mensaje “Los números que ingresaste no son diferentes a 0”, paso 4
-7-  Suma:=n1+n2, resta:=n1-n2, mult:=n1*n2, div:=n1/n2
-8-  Mostrar Mensaje “Los resultados de la suma, resta, multiplicación y división son” suma, resta, mult, div
-9-  Fin
+7-	Suma:=a+b
+8-	resta:=a-b
+9-	mult:=a*b
+10-	div:=a/b
+11-	Mostrar Mensaje “Los resultados de las operaciones son” suma, resta, mult, div
+12-	end
