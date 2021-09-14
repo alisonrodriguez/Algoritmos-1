@@ -1,0 +1,17 @@
+Leer un número, mostrar el número y si es par.
+ANÁLISIS
+Entrada: Una variable entera, una variable entera para el residuo
+Restricciones: Verificar que el número sea par o no
+Salida: Un número entero y un mensaje
+DISEÑO
+1-	Inicio
+2-	VAR: x, res:ENTERAS
+3-	X:=0, res:=0
+4-	Mensaje “Ingresa un número entero”
+5-	Leer x
+6-	Res:=x MOD2
+7-	Si res=0
+Si, paso 8
+No, Mostrar x “no es par”, ir al paso 9
+8-	Mostrar x “es par”
+9-	end
